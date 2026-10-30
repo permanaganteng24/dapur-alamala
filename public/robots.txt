@@ -1,0 +1,27 @@
+# ==============================================================================
+# Robots.txt for Dapur Alamala Catering Malang
+# Security SEO: Permitted indexing for public pages, Strict blocking for admin routes
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /#menu
+Allow: /#cara-pesan
+Allow: /#ulasan
+Allow: /#kontak
+Allow: /menu/
+
+# Security SEO: Disallow all search engine crawlers from indexing private admin & secret portal endpoints
+Disallow: /admin
+Disallow: /admin/
+Disallow: /#/admin
+Disallow: /#/admin/
+Disallow: /admin/login
+Disallow: /#/admin/login
+Disallow: /portal-alamala-auth
+Disallow: /#/portal-alamala-auth
+Disallow: /owner-secret-portal
+Disallow: /#/owner-secret-portal
+
+# Sitemap
+Sitemap: https://dapur-alamala-catering-malang.com/sitemap.xml

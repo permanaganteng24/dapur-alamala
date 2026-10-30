@@ -1,0 +1,6 @@
+{
+  "name": "Dapur Amala Catering Malang",
+  "description": "Dapur Alamala - Puding, Cake & Catering terpercaya di Malang: Nasi Box, Tumpeng Tradisional, Snack Box & Puding dengan menu interaktif real-time dan checkout WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
